@@ -29,8 +29,7 @@ rosdep update
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
-# Install additional tools (optional)
-sudo apt install python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y
+
 
 # Verify the installation by starting the ROS master node
 roscore
